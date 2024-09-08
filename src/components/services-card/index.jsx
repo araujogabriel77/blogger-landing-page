@@ -7,7 +7,7 @@ import whiteSpacer from '../../assets/images/white-spacer.svg';
 function ServiceCard({title, services, price, dark}) {
 
   return (
-    <div 
+    <section 
       className="w-[240px] md:w-[330px] flex flex-col rounded-3xl border-2 border-solid dark-border"
       style={{backgroundColor: dark ? 'var(--default-darker-color)' : 'var(--background-color)'}}  
     >
@@ -40,7 +40,7 @@ function ServiceCard({title, services, price, dark}) {
           {price}
         </h1>
      </div>
-    </div>
+    </section>
   );
 }
 

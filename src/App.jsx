@@ -5,6 +5,7 @@ import Info from './sections/info'
 import Bussiness from './sections/bussiness'
 import GetStarted from './sections/get-started'
 import Plans from './sections/plans'
+import Contact from './sections/contact'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Bussiness />
       <GetStarted />
       <Plans />
+      <Contact />
     </>
   )
 }

@@ -10,7 +10,7 @@ function GetStarted() {
       <img src={laces} className="absolute top-32 -right-6 w-[40px] h-[40px]" />
       <section className="relative flex flex-col">
         <h1 className="mb-8 text-3xl">Let’s Begin the Journey with Us</h1>
-        <p className="">Make Your Choice, our partners are very experienced in their field and have the potential to increase your business</p>
+        <p >Make Your Choice, our partners are very experienced in their field and have the potential to increase your business</p>
       </section>
 
       <section className="flex flex-col justify-center items-center">
@@ -18,11 +18,11 @@ function GetStarted() {
         
         <form className="flex flex-col justify-center items-center gap-4 w-[400px] max-w-[95%]">
           <div className="input-section flex">
-            <img src={blueLightCheck} className="" style={{color: 'var(--primay-light-color)'}} />
+            <img src={blueLightCheck}  style={{color: 'var(--primay-light-color)'}} />
             <input type="text" name="name" placeholder="Name" className="text-left px-8 py-2 rounded-2xl border-2 border-solid border-[var(--primay-light-color)]" />
           </div>
           <div className="input-section flex">
-            <img src={blueLightCheck} className="" style={{color: 'var(--primay-light-color)'}} />
+            <img src={blueLightCheck}  style={{color: 'var(--primay-light-color)'}} />
             <input type="email" name="email" placeholder="Email" className="text-left px-8 py-2 rounded-2xl border-2 border-solid border-[var(--primay-light-color)]" />
           </div>
           <CTAButton 
