@@ -3,6 +3,7 @@ import leftText from '../../assets/images/distorted-left-text.svg';
 import check from '../../assets/images/check.svg';
 import laces from '../../assets/images/laces.svg';
 import blueArrowDown from '../../assets/images/blue-arrow-down.svg';
+import CTAButton from '../../components/cta-button';
 
 function Hero() {
 
@@ -12,6 +13,10 @@ function Hero() {
         <h1 className="mb-4">LET'S TURN YOUR VLOGGING PASSION</h1>
         <p className="text-xs">Join Us on Our Blog and Enjoy <span className='hightlight'>High-Quality Content</span> that Inspires  and Provides Solutions</p>
         <img src={laces} className="absolute -right-5 top-[40%] w-[46px]" />
+        {/* <CTAButton 
+          message="JOIN BE A PARTNER"
+          style={{position: 'absolute', left: '23%', bottom: '-5%'}}
+        /> */}
         <button className="absolute left-[23%] sm:left-6 -bottom-5 py-2 font-bold w-[200px] rounded-full border-solid border-2 border-[var(--default-darker-color)] text-white bg-primary">JOIN BE A PARTNER</button>
       </section>
 
