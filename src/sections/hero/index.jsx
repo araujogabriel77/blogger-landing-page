@@ -17,7 +17,7 @@ function Hero() {
           message="JOIN BE A PARTNER"
           style={{position: 'absolute', left: '23%', bottom: '-5%'}}
         /> */}
-        <button className="absolute left-[23%] sm:left-6 -bottom-5 py-2 font-bold w-[200px] rounded-full border-solid border-2 border-[var(--default-darker-color)] text-white bg-primary">JOIN BE A PARTNER</button>
+        <button className="absolute left-[23%] sm:left-6 -bottom-5 py-2 font-bold w-[200px] rounded-full border-solid border-2 dark-border text-white bg-primary">JOIN BE A PARTNER</button>
       </section>
 
       <section className="flex mx-auto justify-between w-[90%]">
@@ -40,7 +40,7 @@ function Hero() {
       </section>
 
       <section className="flex -z-20 justify-center items-center p-10 pb-14 mt-4 w-[900px] max-w-[90%] mx-auto rounded-3xl border-solid border-2 border-[var(--primay-light-color)]">
-        <div className="relative  w-[160px] md:w-[334px] h-[209px] md:h-[434px] bg-[var(--grey-color)] rounded-full border-solid border-4 border-[var(--default-darker-color)]">
+        <div className="relative  w-[160px] md:w-[334px] h-[209px] md:h-[434px] bg-[var(--grey-color)] rounded-full border-solid border-4 dark-border">
         <img src={leftText} alt="Our Advantages" className="absolute -left-12 -top-10" />
         <img src={blueArrowDown} className="absolute -right-[70px] top-0" />
             <ul className="absolute pt-[110px] pb-4 -z-10 -left-[50%] -bottom-[85%] w-[300px] md:w-[453px] flex flex-col justify-center items-center gap-4 rounded-3xl bg-primary">

@@ -4,6 +4,7 @@ import Navbar from './sections/navbar'
 import Info from './sections/info'
 import Bussiness from './sections/bussiness'
 import GetStarted from './sections/get-started'
+import Plans from './sections/plans'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Info />
       <Bussiness />
       <GetStarted />
+      <Plans />
     </>
   )
 }

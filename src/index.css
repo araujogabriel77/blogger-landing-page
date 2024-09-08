@@ -50,16 +50,16 @@ p, a, span {
   color: var(--default-darker-color);
 }
 
+.dark-border {
+  color: var(--default-darker-color);
+}
+
 .primary-text {
   color: var(--primary-color);
 }
 
 .bg-primary {
   background-color: var(--primary-color);
-}
-
-.yellow-tag {
-  background-color: #FFE81A;
 }
 
 body {
