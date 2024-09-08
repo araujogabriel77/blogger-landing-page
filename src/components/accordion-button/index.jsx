@@ -14,7 +14,10 @@ function AccordionButton({ title, contentList }) {
   return (
         <div>
           <button
-            className="flex justify-center items-center gap-2 w-[200px] bg-primary  p-4 rounded-full"
+            className="
+              flex justify-center items-center gap-2 w-[200px] bg-primary  p-4 rounded-full
+              lg:w-[240px] lg:-ml-12 lg:px-24
+              "
             onClick={toggleList}
           >
             <span className="header-font text-white">{title}</span>
