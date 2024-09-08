@@ -10,7 +10,7 @@ function Hero() {
   return (
     <main className="
       flex flex-col gap-8 pt-4 pb-48
-      lg:flex-row lg:relative lg:w-[90%] lg:mx-auto lg:overflow-hidden lg:pb-32 lg:mb-12
+      lg:flex-row lg:relative lg:w-[90%] lg:mx-auto lg:overflow-hidden lg:pb-40 lg:mb-12
     "> 
       <section 
         className="
@@ -31,7 +31,7 @@ function Hero() {
 
       <section className="
         flex mx-auto justify-between w-[90%]
-        lg:absolute lg:bottom-12 lg:w-[40%]
+        lg:absolute lg:bottom-20 lg:w-[40%] lg:pl-4
       ">
         <div>
           <h1 className="relative text-lg">35.2<span className="absolute top-0 -right-[12px] font-light text-lg primary-text">+</span></h1>
