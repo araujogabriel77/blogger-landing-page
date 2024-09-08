@@ -1,14 +1,16 @@
 import React from 'react';
 import blueCheck from '../../assets/images/blue-check.svg';
 import whiteCheck from '../../assets/images/white-check.svg';
-import spacer from '../../assets/images/spacer.svg';
-import whiteSpacer from '../../assets/images/white-spacer.svg';
+import './styles.css';
 
 function ServiceCard({title, services, price, dark}) {
 
   return (
     <section 
-      className="w-[240px] md:w-[330px] flex flex-col rounded-3xl border-2 border-solid dark-border"
+      className="
+        w-[240px] flex flex-col justify-between rounded-3xl border-2 border-solid dark-border
+        lg:w-[320px] lg:h-[450px] lg:rounded-[42px]
+        "
       style={{backgroundColor: dark ? 'var(--default-darker-color)' : 'var(--background-color)'}}  
     >
      <p
@@ -32,9 +34,8 @@ function ServiceCard({title, services, price, dark}) {
      </ul>
 
      <div className="relative py-8 mt-8">
-       <img src={dark ? whiteSpacer : spacer} className="absolute top-0 left-8" />
        <h1 
-          className="text-3xl"
+          className={`text-3xl white-price ${dark ? 'white-price' : 'default-price'}`}
           style={{color: dark ? '#FFF' : 'var(--default-darker-color)'}}
         >
           {price}
