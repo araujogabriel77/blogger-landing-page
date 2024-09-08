@@ -44,9 +44,11 @@ function Bussiness() {
         <img src={laces} className="absolute w-[40px] h-[40px] top-[50%] -left-5 lg:top-0 lg:-left-4" />
         <button
           className="
-          absolute left-[25%] -bottom-[20px] font-bold w-[200px] py-2 rounded-full border-solid border-2 dark-border text-white bg-primary
+          absolute left-[25%] -bottom-[20px] font-bold w-[200px] py-2 rounded-full border-solid border-2 dark-border bg-primary
           lg:left-[calc(50%-100px)]
-        ">
+        "
+          style={{color: '#FFF', borderColor: 'var(--default-darker-color)'}}
+        >
           VIEW MORE
         </button>
 
