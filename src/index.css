@@ -46,6 +46,18 @@ p, a, span {
   font-family: var(--header-font) !important;
 }
 
+.dark-text {
+  color: var(--default-darker-color);
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
 body {
   font-family: var(--body-font);
 }
