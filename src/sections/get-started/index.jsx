@@ -6,14 +6,14 @@ import CTAButton from "../../components/cta-button";
 
 function GetStarted() {
   return (
-    <div className="relative px-4 py-16 mt-12 max-w-[90%] mx-auto rounded-3xl z-10 bg-white border-2 border-solid border-[var(--primay-light-color)]">
+    <section className="relative px-4 py-16 mt-12 max-w-[90%] mx-auto rounded-3xl z-10 bg-white border-2 border-solid border-[var(--primay-light-color)]">
       <img src={laces} className="absolute top-32 -right-6 w-[40px] h-[40px]" />
-      <section className="relative flex flex-col">
+      <div className="relative flex flex-col">
         <h1 className="mb-8 text-3xl">Let’s Begin the Journey with Us</h1>
         <p >Make Your Choice, our partners are very experienced in their field and have the potential to increase your business</p>
-      </section>
+      </div>
 
-      <section className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
         <img src={threeBalls} className="w-full max-w-[90%] my-12" />
         
         <form className="flex flex-col justify-center items-center gap-4 w-[400px] max-w-[95%]">
@@ -30,9 +30,9 @@ function GetStarted() {
             style={{width: '320px', maxWidth: '80%', marginLeft: '2rem', marginTop: '1rem'}}
           />
         </form>
-      </section>
+      </div>
 
-    </div>
+    </section>
   );
 }
 

@@ -8,14 +8,14 @@ import CTAButton from '../../components/cta-button';
 function Bussiness() {
 
   return (
-    <div className="px-4 py-8 rounded-3xl -mt-[40px] z-10 bg-white">
-      <section className="relative flex flex-col">
+    <section className="px-4 py-8 rounded-3xl -mt-[40px] z-10 bg-white">
+      <div className="relative flex flex-col">
         <img src={downRightArrow} className="absolute top-[40%] left-[10%]" />
         <h1 className="mb-8 text-3xl">IMPROVE YOUR BUSINESS</h1>
         <p className="max-w-[60%] ml-auto">Improve the Quality of your Business and Feel the Benefits with Us</p>
-      </section>
+      </div>
 
-      <section className="relative mx-auto max-w-[90%] h-[1080px] mt-36 rounded-3xl border-2 border-solid border-[var(--primay-light-color)] border-r-0 border-t-0">
+      <div className="relative mx-auto max-w-[90%] h-[1080px] mt-36 rounded-3xl border-2 border-solid border-[var(--primay-light-color)] border-r-0 border-t-0">
         <img src={doubleCircles} className="absolute -top-24 left-[4%] w-" />
         <img src={laces} className="absolute w-[40px] h-[40px] top-[50%] -left-5" />
         <CTAButton 
@@ -40,8 +40,8 @@ function Bussiness() {
             content={"We build a strong personal brand identity with consistent writing style, visual appearance, and values."}
           />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

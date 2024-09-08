@@ -6,6 +6,7 @@ import Bussiness from './sections/bussiness'
 import GetStarted from './sections/get-started'
 import Plans from './sections/plans'
 import Contact from './sections/contact'
+import Footer from './sections/footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <GetStarted />
       <Plans />
       <Contact />
+      <Footer />
     </>
   )
 }

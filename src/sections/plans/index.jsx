@@ -5,10 +5,10 @@ import CTAButton from '../../components/cta-button';
 function Plans() {
 
   return (
-    <div className="py-16 mt-12 w-full max-w-[1200] mx-auto rounded-3xl bg-white">
+    <section className="py-16 mt-12 w-full max-w-[1200] mx-auto rounded-3xl bg-white">
       <h1 className="mb-8 text-3xl px-4">CHOOSE A PACKAGE ACCORDING TO YOUR NEEDS</h1>
       
-      <section className="relative h-[1200px] md:h-[343px] mt-52 w-full bg-primary flex flex-col justify-center items-center gap-8 rounded-3xl border-2 border-solid dark-border">
+      <div className="relative h-[1200px] md:h-[343px] mt-52 w-full bg-primary flex flex-col justify-center items-center gap-8 rounded-3xl border-2 border-solid dark-border">
         <div className="absolute flex flex-col justify-center items-center gap-16">
           <div className="flex flex-col gap-4 items-center">
             <ServiceCard 
@@ -47,9 +47,9 @@ function Plans() {
             />
           </div>
         </div>
-      </section>
+      </div>
       
-    </div>
+    </section>
   );
 }
 
