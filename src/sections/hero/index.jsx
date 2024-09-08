@@ -39,10 +39,10 @@ function Hero() {
         <img src={leftText} alt="Our Advantages" className="absolute -left-12 -top-10" />
         <img src={blueArrowDown} className="absolute -right-[70px] top-0" />
             <ul className="absolute pt-[110px] pb-4 -z-10 -left-[50%] -bottom-[85%] w-[300px] md:w-[453px] flex flex-col justify-center items-center gap-4 rounded-3xl bg-primary">
-              <li className="flex gap-2"><img src={check} /><span className="font-rammeto text-white">TRUSTED</span></li>
-              <li className="flex gap-2"><img src={check} /><span className="font-rammeto text-white">ACTUAL</span></li>
-              <li className="flex gap-2"><img src={check} /><span className="font-rammeto text-white">PROFESSIONAL</span></li>
-              <li className="flex gap-2"><img src={check} /><span className="font-rammeto text-white">ACTUAL</span></li>
+              <li className="flex gap-2"><img src={check} /><span className="header-font text-white">TRUSTED</span></li>
+              <li className="flex gap-2"><img src={check} /><span className="header-font text-white">ACTUAL</span></li>
+              <li className="flex gap-2"><img src={check} /><span className="header-font text-white">PROFESSIONAL</span></li>
+              <li className="flex gap-2"><img src={check} /><span className="header-font text-white">ACTUAL</span></li>
             </ul>
         </div>
       </section>

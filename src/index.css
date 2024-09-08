@@ -42,7 +42,7 @@ p, a, span {
   font-weight: bold;
 }
 
-.font-rammeto {
+.header-font {
   font-family: var(--header-font) !important;
 }
 
@@ -56,6 +56,10 @@ p, a, span {
 
 .bg-primary {
   background-color: var(--primary-color);
+}
+
+.yellow-tag {
+  background-color: #FFE81A;
 }
 
 body {

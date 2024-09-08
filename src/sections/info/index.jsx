@@ -4,7 +4,7 @@ import blackCheck from '../../assets/images/black-check.svg';
 function Info() {
 
   return (
-    <div className="wrapper pt-10 pb-14 bg-primary rounded-3xl">
+    <div className="wrapper pt-10 pb-24 bg-primary rounded-3xl">
       <section className="relative mb-20">
         <h1>THE GREAT WORK</h1>
         <p className="mt-4 text-left pl-4 text-white">Collaborating with our agency is an effective marketing strategy to achieve goals.</p>
